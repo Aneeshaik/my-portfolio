@@ -4,13 +4,14 @@ import Header from "./components/Header"
 import Projects from "./components/Projects"
 import Body from "./components/Body"
 import Skills from "./components/Skills"
-import About from "./components/About"
 import Contact from "./components/Contact"
+import BackgroundEffect from "./components/BackgroundEffect"
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom"
 
 const App = () => {
     return(
-        <div className="">
+        <div>
+            <BackgroundEffect />
             <Header />
             <Outlet />
         </div>
@@ -33,10 +34,6 @@ const appRouter = createBrowserRouter([
             {
                 path: '/skills',
                 element: <Skills />
-            },
-            {
-                path: '/about',
-                element: <About />
             },
             {
                 path: '/contact',

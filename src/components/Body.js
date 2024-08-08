@@ -1,4 +1,5 @@
 import image from "../../images/pic2.jpg"
+import Contact from "./Contact";
 import Projects from "./Projects";
 import Skills from "./Skills";
 const Body = () => {
@@ -26,6 +27,9 @@ const Body = () => {
             </div>
             <div className="mt-[19rem]">
                 <Projects />
+            </div>
+            <div className="mt-[19rem]">
+                <Contact />
             </div>
         </div>
     )
