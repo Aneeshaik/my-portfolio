@@ -5,18 +5,19 @@ import Projects from "./components/Projects"
 import Body from "./components/Body"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
-import BackgroundEffect from "./components/BackgroundEffect"
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom"
 
 const App = () => {
-    return(
-        <div>
-            <BackgroundEffect />
-            <Header />
-            <Outlet />
+    return (
+      <div className="h-screen bg-slate-950">
+        <div className="h-full w-full bg-[linear-gradient(to_right,#4f4f4f_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f_1px,transparent_1px)] bg-[size:40px_40px]">
+          <Header />
+          <Outlet />
         </div>
-    )
-}
+      </div>
+    );
+  };
+  
 
 const appRouter = createBrowserRouter([
     {
