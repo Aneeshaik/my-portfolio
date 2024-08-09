@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{html,js,ts,jsx,tsx}",
+    "./index.html",
   ],
   theme: {
     extend: {
@@ -10,9 +11,6 @@ module.exports = {
         endblue: '#18334F',
         darkblue: '#0F1628'
       },
-      // backgroundImage: {
-      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-      // },
     },
   },
   plugins: [],
