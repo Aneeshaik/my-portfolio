@@ -10,10 +10,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'grid-pattern': `
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px), 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px)
+        `,
+      },
+      backgroundSize: {
+        'grid-pattern': '30px 30px',
+      },
       colors:{
-        startblue: '#0F172A',
-        endblue: '#18334F',
-        darkblue: '#0F1628'
+        customblue: '#0F172A'
       },
     },
   },

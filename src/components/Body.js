@@ -5,10 +5,10 @@ import Skills from "./Skills";
 const Body = () => {
     return (
         <div>
+        <div className="absolute bg-gradient-to-r from-slate-600 to-slate-900 w-36 h-72 z-[-1] blur-[90px] rounded-full"></div>
             <div className="m-14 flex text-white">
             <div className="mx-auto my-auto w-8/12">
                 <div className="">
-                <h1 className="text-xl">Hey! I am</h1>
                 <h1 className="text-5xl mt-4">Shaik Anees Ahmad</h1>
                 <h1 className="mt-5">As a 2024 BTech graduate in Computer Science, I am ready to apply my technical knowledge and problem-solving skills in a challenging role. My education has prepared me for a career that demands innovation and collaboration. I am seeking a position where I can contribute to impactful projects and grow as a software development professional.</h1>
                 </div>
