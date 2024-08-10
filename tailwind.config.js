@@ -4,6 +4,10 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
     "./index.html",
   ],
+  safelist: [
+    'bg-grid-pattern',
+    'bg-grid-pattern-hover',
+  ],
   theme: {
     extend: {
       colors:{
