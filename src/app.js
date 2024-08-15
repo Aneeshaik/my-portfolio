@@ -9,7 +9,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom"
 
 const App = () => {
     return (
-      <div>
+      <div className="relative overflow-hidden">
           <Header />
           <Outlet />
       </div>

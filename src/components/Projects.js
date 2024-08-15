@@ -5,7 +5,7 @@ import simonProject from "../../images/simon-project.png"
 const Projects = () => {
     return (
         <div className="">
-            <h1 className="text-white text-center font-bold text-3xl">Projects</h1>
+            <h1 className="text-white text-center font-bold text-3xl font-poppins">Projects</h1>
             <div className="flex m-5 insta-project w-8/12 mx-auto bg-startblue rounded-2xl">
                 <img className="p-5 w-auto h-64 rounded-[2rem]" src={instaProject} />
                 <div className="p-5 my-auto">

@@ -12,15 +12,23 @@ module.exports = {
     extend: {
       backgroundImage: {
         'grid-pattern': `
-        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px), 
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px)
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px), 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px)
         `,
       },
       backgroundSize: {
         'grid-pattern': '30px 30px',
       },
       colors:{
-        customblue: '#0F172A'
+        'customblue': '#05081C',
+        'start-color': '#5f2c82',
+        'end-color': '#49a09d',
+        'text-color' : '#3399FF'
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        playfair: ['Playfair Display', 'serif'],
+        poppins: ['Poppins', 'serif'],
       },
     },
   },
