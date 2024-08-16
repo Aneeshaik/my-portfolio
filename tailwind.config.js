@@ -21,8 +21,8 @@ module.exports = {
       },
       colors:{
         'customblue': '#05081C',
-        'start-color': '#5f2c82',
-        'end-color': '#49a09d',
+        'start-color': '#ad5389',
+        'end-color': '#3c1053',
         'text-color' : '#3399FF'
       },
       fontFamily: {
