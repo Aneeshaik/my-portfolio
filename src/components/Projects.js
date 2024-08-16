@@ -15,6 +15,7 @@ const Projects = () => {
                 <a target="__blank" className="mt-5 ml-5 text-white" href="https://insta-login-izd81nf0z-aneeshaiks-projects.vercel.app/">Website</a>
                 </div>
             </div>
+            <div className="right-0 absolute bg-gradient-to-r from-start-color to-end-color  w-56 h-[900px] z-[-1] blur-[90px] translate-y-[-250px] rotate-[105deg] opacity-30"></div>
             <div className="flex m-5 insta-project w-8/12 mx-auto bg-startblue rounded-2xl">
                 <div className="p-5 my-auto">
                 <h1 className="text-white font-bold">Weather Checking Website</h1>
@@ -41,6 +42,7 @@ const Projects = () => {
                 <a target="__blank" className="mt-5 ml-5 text-white" href="https://aneeshaik.github.io/simonGame/">Website</a>
                 </div>
                 <img className="p-5 w-auto h-64 rounded-[2rem]" src={simonProject} />
+                <div className="absolute bg-gradient-to-r from-start-color to-end-color  w-56 h-[900px] z-[-1] blur-[90px] translate-y-[-250px] rotate-[105deg] opacity-20"></div>
             </div>
         </div>
     )
