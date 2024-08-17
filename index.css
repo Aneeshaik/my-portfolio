@@ -1,4 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+
+@layer utilities{
+    .card-wrapper{
+        @apply relative bg-gradient-to-b from-slate-700 to-slate-800 rounded-2xl overflow-hidden mt-6 w-8/12 mx-auto rounded-2xl hover:scale-[108%] duration-300;
+    }
+    .card-wrapper::before{
+        background: conic-gradient(
+            rgba(214, 114, 182, 0.9) 0deg,
+            rgba(192, 132, 252, 0.9) 0deg,
+            transparent 80deg
+        );
+        @apply absolute h-[150%] w-[150%] left-[-25%] top-[-25%] content-[''] animate-border-spin;
+    }
+    .card-content{
+        @apply absolute h-[calc(100%-4px)] w-[calc(100%-4px)] top-[2px] left-[2px] bg-gradient-to-b from-slate-800 to-slate-900 rounded-2xl;
+    }
+}
