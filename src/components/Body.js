@@ -1,8 +1,8 @@
 import image from "../../images/pic2.jpg"
 import Contact from "./Contact";
-import Header from "./Header";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import { TypeAnimation } from "react-type-animation";
 const Body = () => {
     return (
         <div className="mt-20">
@@ -10,6 +10,14 @@ const Body = () => {
             <div className="m-14 flex text-white">
                 <div className="mx-auto my-auto w-8/12">
                     <div className="">
+                        <TypeAnimation
+                            sequence={[
+                                'Shaik Anees Ahmad'
+                            ]}
+                            wrapper="span"
+                            speed={10}
+                            style={{fontSize: '2em', display: 'inline-block'}}
+                        />
                         <h1 className="text-5xl mt-4 hover:mr-2 transition-transform duration-300">Shaik <span className="inline-block text-text-color hover:mr-4 hover:ml-4 hover:scale-110 transition-all duration-500 ease-in-out">Anees</span> Ahmad</h1>
                         <h1 className="mt-5">As a <span className="text-text-color"> 2024 BTech graduate in Computer Science, </span> I am ready to apply my technical knowledge and problem-solving skills in a challenging role. My education has prepared me for a career that demands innovation and collaboration. I am seeking a position where I can contribute to impactful projects and grow as a software development professional.</h1>
                     </div>

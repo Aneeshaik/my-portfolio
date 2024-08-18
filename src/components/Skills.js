@@ -12,7 +12,7 @@ import wordpress from "../../images/wordpress-logo.png"
 const Skills = () => {
     return (
         <div className="items-center">
-                    <div className="absolute bg-gradient-to-r from-start-color to-end-color  w-56 h-[900px] z-[-1] blur-[90px] translate-y-[-250px] rotate-[105deg] opacity-25"></div>
+            <div className="absolute bg-gradient-to-r from-start-color to-end-color  w-56 h-[900px] z-[-1] blur-[90px] translate-y-[-250px] rotate-[105deg] opacity-25"></div>
            <h1 className="text-white text-center font-bold text-3xl font-poppins">Skills</h1>
            <div className="w-10/12 flex flex-wrap mx-auto h-2 justify-center m-5">
                 <img className="mt-2 m-14 h-24 hover:scale-[115%] transition-transform duration-300" src={html} alt="html-pic"></img>
